@@ -1,0 +1,25 @@
+
+<h3> Hello, <%= @user.username %></h3>
+
+<form method="get" action="/items/new">
+  <input type="submit" value="add an item">
+</form>
+
+<% @items.each do |item| %>
+	<% if item.user_id == @user.id %>
+
+		<p><%= item.name %></p>
+		<form method="get" action="/items/<%=item.id%>/edit">
+			<input type="submit" value="edit">
+		</form>
+
+		<form method="post" action="/items/<%=item.id%>">
+			<input type="hidden" name="_method" value="delete">
+			<input type="submit" value="delete">
+		</form>
+
+	<% else %>
+		<p><%= item.name %></p>
+	<% end %>
+<% end %>
+

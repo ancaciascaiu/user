@@ -1,0 +1,18 @@
+
+<% if !session[:user_id] %>
+
+	<p>Sign up for a new account:</p>
+	<form method="get" action="/users/new">
+		<input type="submit" value="sign up" >
+	</form>
+
+<% else %>
+	
+	<h3> Welcome, <%= @user.username %></h3>
+	<h2> Current auctions: </h2>
+	<% @all_items.each do |item| %>
+		<a href="/items/<%=item.id%>"><p><%= item.name %></p></a>
+		
+	<% end %>
+
+# <% end %>
