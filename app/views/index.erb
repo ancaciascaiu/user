@@ -1,13 +1,11 @@
 
-<% if !session[:user_id] %>
+<% if current_user %>
 
+	<h3> Welcome, <%= @current_user.username.capitalize %></h3>
+
+<% else %>
 	<p>Sign up for a new account:</p>
 	<form method="get" action="/users/new">
 		<input type="submit" value="sign up" >
 	</form>
-
-<% else %>
-
-	<h3> Welcome, <%= @user.username %></h3>
-
 <% end %>
