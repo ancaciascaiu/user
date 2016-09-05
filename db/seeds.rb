@@ -2,18 +2,27 @@ user1 = User.create(username: "silviu", password_hash: "$2a$10$9PORMrtKX6oF7Ex5v
 user2 = User.create(username: "anca", password_hash: "$2a$10$P1U1H/6qCDa6vMKDNrCvweupa7/6Wl5OjFC2YzIUsm1gsyQFbgM4O") #pass: calorifer
 user3 = User.create(username: "oana", password_hash: "$2a$10$WLgFYuYqRQADhh/6uwDnq.et29cDWBJue9aq8ugs041JBDD64MsRq") #pass: morcovel
 
+# post1 = Post.create(title: "Title 1", content: "zxcvbnmasdfghjklwertyuiopzxcvbnmasdfghjklertyui", user_id: 3)
+# post2 = Post.create(title: "Title 2", content: "m p u t r e s g a j k l j g f d f y u !!", user_id: 4)
+# post3 = Post.create(title: "Title 3", content: "fffffffffffffffffffffffffffffffffff", user_id: 5)
+# post4 = Post.create(title: "Title 4", content: "bbb yyy www zzz kkk hhh eee.", user_id: 1)
+# post5 = Post.create(title: "Title 5", content: "1234567890 lkjhgfds zxcvbnm lkjhgfds", user_id: 2)
+# post6 = Post.create(title: "Title 6", content: "987654321qwertyuiolkjhgfdsazxcvbnm", user_id: 3)
+# post7 = Post.create(title: "Title 7", content: "qwertyuiopasdfghjklmnbvcxdfghjkiuytresdfghjmnbvc", user_id: 2)
+# post8 = Post.create(title: "Title 8", content: "mmmmmmmmmmm nnnnnnnnnnn ooooooooooooooohhhhhhh", user_id: 1)
 
-
-# item1 = Item.create(name: "Tv for sale!", description: "zxcvbnmasdfghjklwertyuiopzxcvbnmasdfghjklertyui", start_date: "2016-06-01", end_date: "2016-08-25", user_id: 1)
-# item2 = Item.create(name: "house in Glenview", description: "zxcvbnmasdfghjklwertyuiopzxcvbnmasdfghjklertyui", start_date: "2016-08-05", end_date: "2016-08-30", user_id: 3)
-# item3 = Item.create(name: "Travel bags", description: "zxcvbnmasdfghjklwertyuiopzxcvbnmasdfghjklertyui", start_date: "2016-08-01", end_date: "2016-09-26", user_id: 2)
-# item4 = Item.create(name: "set of cups", description: "zxcvbnmasdfghjklwertyuiopzxcvbnmasdfghjklertyui", start_date: "2016-05-11", end_date: "2016-09-15", user_id: 1)
-# item5 = Item.create(name: "Garage", description: "zxcvbnmasdfghjklwertyuiopzxcvbnmasdfghjklertyui", start_date: "2016-04-03", end_date: "2016-11-17", user_id: 2)
-
-# bid1 = Bid.create(user_id: 3, item_id: 2, value: 100)
-# bid1 = Bid.create(user_id: 1, item_id: 1, value: 80)
-# bid1 = Bid.create(user_id: 2, item_id: 3, value: 50)
-# bid1 = Bid.create(user_id: 3, item_id: 1, value: 3)
-# bid1 = Bid.create(user_id: 1, item_id: 2, value: 30)
-# bid1 = Bid.create(user_id: 3, item_id: 3, value: 10)
-
+# comment1 = Comment.create(content: "I think that... nothing.", user_id: 1, post_id: 1)
+# comment2 = Comment.create(content: "I think that... nothing.", user_id: 2, post_id: 1)
+# comment3 = Comment.create(content: "I think that... nothing.", user_id: 1, post_id: 2)
+# comment4 = Comment.create(content: "I think that... nothing.", user_id: 2, post_id: 2)
+# comment5 = Comment.create(content: "I think that... nothing.", user_id: 3, post_id: 2)
+# comment6 = Comment.create(content: "I think that... nothing.", user_id: 1, post_id: 3)
+# comment7 = Comment.create(content: "I think that... nothing.", user_id: 2, post_id: 3)
+# comment8 = Comment.create(content: "I think that... nothing.", user_id: 3, post_id: 3)
+# comment9 = Comment.create(content: "I think that... nothing.", user_id: 3, post_id: 4)
+# comment10 = Comment.create(content: "I think that... nothing.", user_id: 1, post_id: 5)
+# comment11 = Comment.create(content: "I think that... nothing.", user_id: 2, post_id: 6)
+# comment12 = Comment.create(content: "I think that... nothing.", user_id: 1, post_id: 7)
+# comment13 = Comment.create(content: "I think that... nothing.", user_id: 3, post_id: 7)
+# comment14 = Comment.create(content: "I think that... nothing.", user_id: 2, post_id: 8)
+# comment15 = Comment.create(content: "I think that... nothing.", user_id: 3, post_id: 8)
